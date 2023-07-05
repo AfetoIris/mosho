@@ -1,0 +1,146 @@
+#type-ground {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 822px;
+  height: 482px;
+  padding: 10px;
+  margin: 10vh auto 0 !important;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+  align-items: center;
+}
+#type-ground input[type="text"]:first-of-type {
+  width: 50%;
+  height: 35px;
+  border: none;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  color: #EE8604;
+  background: none;
+  text-align: center;
+  outline: none;
+  font-size: 24px;
+  margin: 10px 0 20px;
+}
+#type-ground textarea:first-of-type {
+  margin-top: 50px;
+  padding: 10px;
+  width: 50%;
+  height: 350px;
+  border: none;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  color: #EE8604;
+  background: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  resize: none;
+}
+#type-ground button:first-of-type {
+  position: absolute;
+  right: 9%;
+  top: 15%;
+  width: 82px;
+  height: 82px;
+  border-radius: 10%;
+  background-color: rgba(51, 51, 51, 0.7);
+  text-align: center;
+  color: #208aee;
+  font-size: 16px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  text-shadow: gray 0 0 2px;
+}
+#type-ground #submit {
+  position: absolute;
+  right: 9%;
+  bottom: 14%;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: transparent;
+  text-align: center;
+  color: deeppink;
+  font-size: 25px;
+  font-weight: 600;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  text-shadow: pink 0 0 5px;
+}
+.comment {
+  position: relative;
+  width: 700px;
+  padding: 10px;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+}
+.comment .comment-hd {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.comment .comment-hd .from {
+  flex: 4;
+}
+.comment .comment-hd .noter-info {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  flex: 1;
+}
+.comment .comment-hd .noter-info .tou-xiang img {
+  display: block;
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+.comment .comment-hd .noter-info .who {
+  font-size: 14px;
+  color: #f5a141;
+}
+.comment .note {
+  padding: 15px 0;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #304455;
+}
+.comment .comment-info {
+  border-top: 1px dashed rgba(0, 0, 0, 0.5);
+}
+.comment .comment-info .note_time {
+  float: left;
+  font-size: 16px;
+  line-height: 36px;
+}
+.comment .comment-info .read-times {
+  float: right;
+  font-size: 16px;
+  line-height: 36px;
+}
+.fan-ye {
+  margin: 15px 0;
+  height: 24px;
+  text-align: center;
+}
+.fan-ye > li {
+  display: inline-block;
+  margin: 0 10px;
+  height: 24px;
+  font: 16px/24px 'Microsoft YaHei';
+  color: black;
+  text-align: center;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+.delete {
+  padding: 10px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=guestbook.css.map */

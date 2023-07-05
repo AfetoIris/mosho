@@ -1,0 +1,81 @@
+body {
+  background: url("../img/unit/dm13.jpg") no-repeat;
+  background-size: cover;
+}
+
+#log-reg-form {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 400px;
+  padding: 10px;
+  margin: 20vh auto 0!important;
+  background-color: transparent;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,.7);
+  align-items: center;
+
+  &>* {
+    margin-bottom: 20px;
+  }
+
+  input[type="text"],
+  input[type="password"]{
+    width: 95%;
+    height: 30px;
+    border: none;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,.7);
+    border-radius: 15px;
+    color: #EE8604;
+    background: none;
+    text-align: center;
+    outline: none;
+    font-size: 24px;
+
+    &::placeholder {
+      font-size: 16px;
+      color: red;
+      font-weight: 500;
+    }
+  }
+
+  input[type="submit"] {
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    color: #666;
+    background: none;
+    line-height: 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,.7);
+  }
+
+  .tou-xiang {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+
+    img {
+      width: 50px;
+      height: 50px;
+      object-fit: contain;
+    }
+  }
+
+  p:nth-of-type(1) {
+    font-size: 16px;
+    color: blue;
+  }
+
+  ol {
+    width: 90%;
+    li {
+      list-style: unset;
+      font: 16px/1.5 "Microsoft YaHei";
+      color: red;
+    }
+  }
+}

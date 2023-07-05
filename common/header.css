@@ -1,0 +1,89 @@
+/* header部分，复用率太高，记得备份 */
+body {
+  background: url("../img/unit/dm13.jpg") fixed no-repeat;
+  background-size: 100%;
+}
+header {
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.05);
+}
+header .blog_name a {
+  float: left;
+  margin-left: 35px;
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  font-size: 1.6em;
+  color: #EEEEEE;
+  font-weight: 700;
+}
+header #darkmode-switch {
+  float: left;
+  width: 45px;
+  height: 45px;
+  margin: 6px 15px 0;
+}
+header #darkmode-switch svg {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+header .menus {
+  float: right;
+  margin-right: 28px;
+}
+header .menus ul li {
+  float: left;
+}
+header .menus ul li:last-child a {
+  display: block;
+  width: 57px;
+  height: 57px;
+  margin-top: 2px;
+  background: url("../img/unit/rabbit_holding_flowers.png") no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+header .menus ul li a {
+  margin: 0 17px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 20px;
+  color: #EEEEEE;
+  transition: all 0.5s;
+}
+header .menus ul li a:hover {
+  transform: translateY(-5px) scale(110%);
+  color: #49b1f5;
+}
+header .header-nav-as {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-nav-as .header-nav-icons {
+  display: inline-block;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+header .header-nav-as .header-nav-icons svg {
+  width: 100%;
+  height: 100%;
+}
+.dark::before {
+  display: block;
+  content: '';
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  pointer-events: none;
+}
+/*# sourceMappingURL=header.css.map */
