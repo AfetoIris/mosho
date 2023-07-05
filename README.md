@@ -28,7 +28,7 @@
 
 2. 留言面板需要登录用户才能留言，所以留言面板最可能存在登录用户的信息，例如QQ号。
 
-   ![img](./../../../Typora/Typora/FilesSave/images/README/clip_image006-1688519274381-23.jpg)
+   ![img](./img/README/clip_image006.jpg)
 
 3. 在一番搜寻后发现复制留言者的头像链接得到`mosho.com/img/upload/qq_tou_xiang/1404024930.jpg`，不难猜测1404024930很可能就是留言者的QQ号，或曰：该网站存储用户头像时，头像的命名格式是QQ.jpg
 
